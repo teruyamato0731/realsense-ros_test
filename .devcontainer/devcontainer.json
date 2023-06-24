@@ -1,10 +1,10 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "dev_humble",
+	"name": "realsense-ros_test",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "ros2",
-	"workspaceFolder": "/workspaces/dev_humble"
+	"workspaceFolder": "/workspaces/realsense-ros_test"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

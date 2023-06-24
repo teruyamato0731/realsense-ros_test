@@ -10,14 +10,14 @@ services:
       - QT_X11_NO_MITSHM=1
     volumes:
       # Working
-      - ../:/workspaces/dev_humble:cached
+      - ../:/workspaces/realsense-ros_test:cached
       # GUI
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       # device access
       - /dev:/dev
     tty: true
     command: sleep infinity
-    working_dir: /workspaces/dev_humble
+    working_dir: /workspaces/realsense-ros_test
     # rviz2 起動用
     ipc: host
     # device access
