@@ -4,7 +4,15 @@
 	"name": "realsense-ros_test",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "ros2",
-	"workspaceFolder": "/workspaces/realsense-ros_test"
+	"workspaceFolder": "/workspaces/realsense-ros_test",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cmake-tools"
+			]
+		}
+	}
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
